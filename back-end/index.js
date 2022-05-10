@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const configs = require('./configs/database.js');
 const BlogModel = require('./model/model.js');
 const app = express();
-const port = 3000;
+const port = 4000;
 
 mongoose.Promise = global.Promise 
 mongoose.connect(configs.mongouri, {
