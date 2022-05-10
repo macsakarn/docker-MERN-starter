@@ -11,7 +11,7 @@ mongoose.connect(configs.mongouri, {
     useUnifiedTopology : true
 })
 
-app.use(express.json)
+app.use(express.json())
 
 app.get('/test', async(req, res) => {
     try {
